@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Juan David Rojas Tique",
+    "role": "Desarrollador Full Stack",
+    "tagline": "Construyo interfaces interactivas y arquitecturas backend limpias.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactarme"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "En formación, en construcción",
+    "bio": "Estudiante de décimo semestre de Ingeniería de Sistemas, en camino a convertirme en Ingeniero de Software (avance a septiembre de 2026). Me especializo en interfaces interactivas con React, Vite, HTML5 y Tailwind CSS, y en el diseño de arquitecturas backend limpias basadas en capas y patrones CQRS. Complemento este perfil con bases de datos relacionales (SQL, Entity Framework), despliegue en la nube con AWS e infraestructura de servicios FTP e IIS. Me apasiona automatizar procesos y explorar el análisis de datos con R aplicado a Business Intelligence.",
+    "status": "Décimo semestre · Ingeniería de Sistemas · Sept. 2026"
+  },
+  "skills": {
+    "eyebrow": "Habilidades",
+    "title": "Herramientas que uso",
+    "frontend": "Frontend",
+    "backend": "Arquitectura & Backend",
+    "data": "Datos",
+    "cloud": "Cloud & Infraestructura",
+    "other": "Análisis & Automatización"
+  },
+  "projects": {
+    "eyebrow": "Proyectos",
+    "title": "Cosas que he construido",
+    "viewProject": "Ver proyecto",
+    "inkprogress": {
+      "name": "InkProgress Studio",
+      "description": "Dashboard de gestión para un estudio de tatuajes: agenda de citas, calculadora inteligente de presupuestos, control de caja y seguimiento de metas por sprint. Construido para resolver un problema real de mi propio emprendimiento."
+    },
+    "portfolio": {
+      "name": "Este portafolio",
+      "description": "El sitio que estás viendo ahora mismo: React + Vite, componentes reutilizables, sistema de traducción local y un formulario de contacto conectado a una base de datos relacional."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu proyecto",
+    "subtitle": "¿Tienes una idea, una vacante o un proyecto en mente? Escríbeme y te respondo pronto.",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Te responderé pronto.",
+    "error": "Algo salió mal. Intenta de nuevo o escríbeme directamente al correo."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Hecho con React + Vite"
+  }
+}

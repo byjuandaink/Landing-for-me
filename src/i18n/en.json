@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Juan David Rojas Tique",
+    "role": "Full Stack Developer",
+    "tagline": "I build interactive interfaces and clean backend architectures.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Still learning, always building",
+    "bio": "Tenth-semester Systems Engineering student, on track to become a Software Engineer (as of September 2026). I specialize in interactive interfaces with React, Vite, HTML5, and Tailwind CSS, and in designing clean, layered backend architectures based on CQRS patterns. I complement this with relational databases (SQL, Entity Framework), cloud deployment with AWS, and FTP/IIS service infrastructure. I'm passionate about process automation and data analysis with R applied to Business Intelligence.",
+    "status": "10th semester · Systems Engineering · Sept. 2026"
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Tools I work with",
+    "frontend": "Frontend",
+    "backend": "Architecture & Backend",
+    "data": "Data",
+    "cloud": "Cloud & Infrastructure",
+    "other": "Analytics & Automation"
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Things I've built",
+    "viewProject": "View project",
+    "inkprogress": {
+      "name": "InkProgress Studio",
+      "description": "Management dashboard for a tattoo studio: appointment scheduling, a smart budget calculator, cash flow tracking, and sprint-based goal tracking. Built to solve a real problem from my own venture."
+    },
+    "portfolio": {
+      "name": "This portfolio",
+      "description": "The site you're looking at right now: React + Vite, reusable components, a local translation system, and a contact form connected to a relational database."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Have an idea, an opening, or a project in mind? Write to me and I'll get back to you soon.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Try again or email me directly."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with React + Vite"
+  }
+}

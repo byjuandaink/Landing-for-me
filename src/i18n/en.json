@@ -2,49 +2,107 @@
   "nav": {
     "about": "About",
     "skills": "Skills",
+    "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact"
   },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Juan David Rojas Tique",
-    "role": "Full Stack Developer",
-    "tagline": "I build interactive interfaces and clean backend architectures.",
+    "role": "Full Stack Developer Jr.",
+    "stack": ".NET (C#) & React",
+    "tagline": "I build scalable web applications: interactive React interfaces and clean C# backends built on Clean Architecture.",
     "ctaProjects": "View projects",
-    "ctaContact": "Get in touch"
+    "ctaContact": "Contact me",
+    "stats": {
+      "experience": "Years in IT",
+      "projects": "Projects",
+      "semester": "Semester of Systems Eng."
+    }
   },
   "about": {
-    "eyebrow": "About",
-    "title": "Still learning, always building",
-    "bio": "Tenth-semester Systems Engineering student, on track to become a Software Engineer (as of September 2026). I specialize in interactive interfaces with React, Vite, HTML5, and Tailwind CSS, and in designing clean, layered backend architectures based on CQRS patterns. I complement this with relational databases (SQL, Entity Framework), cloud deployment with AWS, and FTP/IIS service infrastructure. I'm passionate about process automation and data analysis with R applied to Business Intelligence.",
-    "status": "10th semester · Systems Engineering · Sept. 2026"
+    "eyebrow": "About me",
+    "title": "From IT support to code",
+    "bio": "Full Stack Developer and tenth-semester Systems Engineering student, specialized in scalable web applications with a C# (.NET) backend and a React frontend. I design and integrate REST APIs following Clean Architecture, applying patterns such as CQRS, Repository and Unit of Work with Entity Framework Core on PostgreSQL. I understand the software lifecycle, cloud deployment (AWS), web servers (IIS) and collaborative work with Scrum and GitFlow.",
+    "location": "Bogotá, Colombia (remote)",
+    "languagesTitle": "Languages",
+    "langEs": "Spanish · Native",
+    "langEn": "English · Basic / Technical"
   },
   "skills": {
     "eyebrow": "Skills",
-    "title": "Tools I work with",
+    "title": "My tech stack",
+    "subtitle": "What I use to build end to end.",
+    "backend": "Backend",
     "frontend": "Frontend",
-    "backend": "Architecture & Backend",
-    "data": "Data",
-    "cloud": "Cloud & Infrastructure",
-    "other": "Analytics & Automation"
+    "database": "Databases",
+    "methods": "Methodologies & Other",
+    "all": "All"
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Where I've worked",
+    "present": "Present",
+    "asisya": {
+      "role": "Web Developer (Full Stack / Frontend)",
+      "company": "Asisya",
+      "period": "May 2026 – Present",
+      "b1": "Built modules and interactive interfaces with React, Vite and Tailwind CSS, consuming REST APIs with Axios; shipped my first production deployment.",
+      "b2": "Designed and implemented backend services following Clean Architecture and separation of concerns, querying PostgreSQL through Entity Framework Core.",
+      "b3": "Structured relational data models and managed deployments across environments (develop, QA, production) with GitFlow and Scrum."
+    },
+    "yeapdata": {
+      "role": "Service Desk Analyst",
+      "company": "Yeapdata",
+      "period": "July 2025 – May 2026",
+      "b1": "Handled IT service incidents, continuous application monitoring and follow-up of user requests.",
+      "b2": "Managed access, roles and security policies through Active Directory."
+    }
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "My academic path",
+    "cun": {
+      "degree": "Systems Engineering (tenth semester, in progress)",
+      "institution": "Corporación Unificada Nacional (CUN)",
+      "period": "2023 – Present"
+    },
+    "senaNet": {
+      "degree": "Technologist in Network Infrastructure Implementation",
+      "institution": "SENA",
+      "period": "2021 – 2022"
+    },
+    "senaPc": {
+      "degree": "Technician in Computer Equipment Maintenance",
+      "institution": "SENA",
+      "period": "2019 – 2020"
+    }
   },
   "projects": {
     "eyebrow": "Projects",
     "title": "Things I've built",
     "viewProject": "View project",
+    "fullstack": {
+      "name": "Full Stack Web System",
+      "description": ".NET (C#) and React application with Clean Architecture, CQRS, Unit of Work, PostgreSQL and JWT authentication."
+    },
+    "api": {
+      "name": "Enterprise Web API",
+      "description": "RESTful C# API with Repository Pattern, global exception handling and complex queries."
+    },
     "inkprogress": {
       "name": "InkProgress Studio",
-      "description": "Management dashboard for a tattoo studio: appointment scheduling, a smart budget calculator, cash flow tracking, and sprint-based goal tracking. Built to solve a real problem from my own venture."
+      "description": "Management dashboard for a tattoo studio: appointment scheduling, quote calculator, cash control and sprint-based goals. Born from a real problem in my own business."
     },
     "portfolio": {
-      "name": "This portfolio",
-      "description": "The site you're looking at right now: React + Vite, reusable components, a local translation system, and a contact form connected to a relational database."
+      "name": "introducing.me",
+      "description": "This portfolio: React + Vite, reusable components, a custom translation system and a contact form connected to a database."
     }
   },
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's talk about your project",
-    "subtitle": "Have an idea, an opening, or a project in mind? Write to me and I'll get back to you soon.",
+    "subtitle": "Have an idea, a job opening or a project in mind? Write to me and I'll get back to you soon.",
     "name": "Name",
     "email": "Email",
     "message": "Message",

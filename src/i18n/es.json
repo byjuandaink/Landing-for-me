@@ -2,43 +2,101 @@
   "nav": {
     "about": "Sobre mí",
     "skills": "Habilidades",
+    "experience": "Experiencia",
     "projects": "Proyectos",
     "contact": "Contacto"
   },
   "hero": {
     "greeting": "Hola, soy",
     "name": "Juan David Rojas Tique",
-    "role": "Desarrollador Full Stack",
-    "tagline": "Construyo interfaces interactivas y arquitecturas backend limpias.",
+    "role": "Full Stack Developer Jr.",
+    "stack": ".NET (C#) & React",
+    "tagline": "Construyo aplicaciones web escalables: interfaces interactivas en React y backend limpio en C# bajo Clean Architecture.",
     "ctaProjects": "Ver proyectos",
-    "ctaContact": "Contactarme"
+    "ctaContact": "Contactarme",
+    "stats": {
+      "experience": "Años en TI",
+      "projects": "Proyectos",
+      "semester": "Semestre de Ing. de Sistemas"
+    }
   },
   "about": {
     "eyebrow": "Sobre mí",
-    "title": "En formación, en construcción",
-    "bio": "Estudiante de décimo semestre de Ingeniería de Sistemas, en camino a convertirme en Ingeniero de Software (avance a septiembre de 2026). Me especializo en interfaces interactivas con React, Vite, HTML5 y Tailwind CSS, y en el diseño de arquitecturas backend limpias basadas en capas y patrones CQRS. Complemento este perfil con bases de datos relacionales (SQL, Entity Framework), despliegue en la nube con AWS e infraestructura de servicios FTP e IIS. Me apasiona automatizar procesos y explorar el análisis de datos con R aplicado a Business Intelligence.",
-    "status": "Décimo semestre · Ingeniería de Sistemas · Sept. 2026"
+    "title": "Del soporte TI al código",
+    "bio": "Desarrollador Full Stack y estudiante de décimo semestre de Ingeniería de Sistemas, especializado en aplicaciones web escalables con backend en C# (.NET) y frontend en React. Diseño e integro APIs REST bajo Clean Architecture, aplicando patrones como CQRS, Repository y Unit of Work con Entity Framework Core sobre PostgreSQL. Conozco el ciclo de vida del software, el despliegue en la nube (AWS), servidores web (IIS) y el trabajo colaborativo con Scrum y GitFlow.",
+    "location": "Bogotá, Colombia (remoto)",
+    "languagesTitle": "Idiomas",
+    "langEs": "Español · Nativo",
+    "langEn": "Inglés · Básico / Técnico"
   },
   "skills": {
     "eyebrow": "Habilidades",
-    "title": "Herramientas que uso",
+    "title": "Mi stack técnico",
+    "subtitle": "Lo que uso para construir de punta a punta.",
+    "backend": "Backend",
     "frontend": "Frontend",
-    "backend": "Arquitectura & Backend",
-    "data": "Datos",
-    "cloud": "Cloud & Infraestructura",
-    "other": "Análisis & Automatización"
+    "database": "Bases de datos",
+    "methods": "Metodologías & Otros",
+    "all": "Todas"
+  },
+  "experience": {
+    "eyebrow": "Experiencia",
+    "title": "Dónde he trabajado",
+    "present": "Presente",
+    "asisya": {
+      "role": "Desarrollador Web (Full Stack / Frontend)",
+      "company": "Asisya",
+      "period": "Mayo 2026 – Presente",
+      "b1": "Desarrollé módulos e interfaces interactivas con React, Vite y Tailwind CSS, consumiendo APIs REST con Axios; logré mi primer despliegue a producción.",
+      "b2": "Diseñé e implementé servicios backend bajo Clean Architecture y separación de responsabilidades, con consultas mediante Entity Framework Core a PostgreSQL.",
+      "b3": "Estructuré modelos de datos relacionales y gestioné despliegues por ambientes (develop, QA, producción) con GitFlow y Scrum."
+    },
+    "yeapdata": {
+      "role": "Analista de Mesa de Servicio",
+      "company": "Yeapdata",
+      "period": "Julio 2025 – Mayo 2026",
+      "b1": "Gestioné incidentes de servicios TI, monitoreo continuo de aplicaciones y seguimiento de requerimientos de usuarios.",
+      "b2": "Administré accesos, roles y directivas de seguridad mediante Active Directory."
+    }
+  },
+  "education": {
+    "eyebrow": "Formación",
+    "title": "Mi camino académico",
+    "cun": {
+      "degree": "Ingeniería de Sistemas (décimo semestre, en curso)",
+      "institution": "Corporación Unificada Nacional (CUN)",
+      "period": "2023 – Presente"
+    },
+    "senaNet": {
+      "degree": "Tecnólogo en Implementación de Infraestructura en Redes",
+      "institution": "SENA",
+      "period": "2021 – 2022"
+    },
+    "senaPc": {
+      "degree": "Técnico en Mantenimiento de Equipos de Cómputo",
+      "institution": "SENA",
+      "period": "2019 – 2020"
+    }
   },
   "projects": {
     "eyebrow": "Proyectos",
     "title": "Cosas que he construido",
     "viewProject": "Ver proyecto",
+    "fullstack": {
+      "name": "Sistema Web Full Stack",
+      "description": "Aplicación con .NET (C#) y React: Clean Architecture, CQRS, Unit of Work, PostgreSQL y autenticación JWT."
+    },
+    "api": {
+      "name": "Web API Empresarial",
+      "description": "API RESTful en C# con Repository Pattern, manejo global de excepciones y consultas complejas."
+    },
     "inkprogress": {
       "name": "InkProgress Studio",
-      "description": "Dashboard de gestión para un estudio de tatuajes: agenda de citas, calculadora inteligente de presupuestos, control de caja y seguimiento de metas por sprint. Construido para resolver un problema real de mi propio emprendimiento."
+      "description": "Dashboard de gestión para un estudio de tatuajes: agenda de citas, calculadora de presupuestos, control de caja y metas por sprint. Nació de un problema real de mi propio emprendimiento."
     },
     "portfolio": {
-      "name": "Este portafolio",
-      "description": "El sitio que estás viendo ahora mismo: React + Vite, componentes reutilizables, sistema de traducción local y un formulario de contacto conectado a una base de datos relacional."
+      "name": "introducing.me",
+      "description": "Este portafolio: React + Vite, componentes reutilizables, sistema de traducción propio y un formulario de contacto conectado a una base de datos."
     }
   },
   "contact": {

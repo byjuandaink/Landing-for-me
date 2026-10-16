@@ -1,0 +1,80 @@
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-top: calc(var(--header-h) * -1); /* el header flota sobre el degradado */
+  padding: calc(var(--header-h) + var(--space-12)) 0 var(--space-8);
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--gradient-hero);
+  background-size: 140% 140%;
+  animation: hero-flow 14s ease-in-out infinite alternate;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
+@keyframes hero-flow {
+  from { background-position: 0% 0%; }
+  to   { background-position: 100% 60%; }
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--space-8);
+  align-items: center;
+}
+
+.hero__name { font-size: var(--text-hero); line-height: 1.05; letter-spacing: -0.03em; }
+.hero__role {
+  margin-top: 0.75rem;
+  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+  font-weight: 600;
+}
+.hero__tagline {
+  max-width: 480px;
+  margin: var(--space-3) 0 var(--space-4);
+  font-size: var(--text-lg);
+}
+.hero__actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+.hero__photo {
+  justify-self: center;
+  width: min(340px, 80vw);
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  transform: perspective(1200px) rotateY(-8deg) rotateX(3deg);
+  transition: transform 0.4s var(--ease);
+}
+.hero__photo:hover { transform: none; }
+.hero__photo img { width: 100%; height: 100%; object-fit: cover; }
+
+.hero__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+  margin: var(--space-8) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.hero__stat { display: flex; flex-direction: column; gap: 0.25rem; }
+.hero__stat strong {
+  font-size: var(--text-xl);
+  color: var(--color-navy);
+  letter-spacing: -0.02em;
+}
+.hero__stat span { font-size: var(--text-sm); color: var(--color-muted); }
+
+@media (max-width: 860px) {
+  .hero__inner { grid-template-columns: 1fr; gap: var(--space-6); }
+  .hero__photo { order: -1; width: min(240px, 70vw); transform: none; }
+  .hero__stats { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero__bg { animation: none; }
+}

@@ -1,42 +1,36 @@
-import { createContext, useContext, useState, useMemo, useCallback } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import es from './es.json';
 import en from './en.json';
 
 const dictionaries = { es, en };
-
 const LanguageContext = createContext(null);
 
-function resolvePath(obj, path) {
-  return path.split('.').reduce((acc, key) => (acc && acc[key] !== undefined ? acc[key] : undefined), obj);
-}
+// Busca una clave tipo "hero.stats.years" dentro del JSON
+const resolve = (obj, path) =>
+  path.split('.').reduce((acc, key) => (acc ? acc[key] : undefined), obj);
 
 export function LanguageProvider({ children }) {
-  const [lang, setLang] = useState('es');
+  const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'es');
+
+  useEffect(() => {
+    localStorage.setItem('lang', lang);
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   const t = useCallback(
-    (key) => {
-      const value = resolvePath(dictionaries[lang], key);
-      if (value === undefined) {
-        return key;
-      }
-      return value;
-    },
+    (key) => resolve(dictionaries[lang], key) ?? key,
     [lang]
   );
 
-  const toggleLang = useCallback(() => {
-    setLang((prev) => (prev === 'es' ? 'en' : 'es'));
-  }, []);
-
-  const value = useMemo(() => ({ lang, t, toggleLang, setLang }), [lang, t, toggleLang]);
-
-  return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
+  return (
+    <LanguageContext.Provider value={{ t, lang, setLang }}>
+      {children}
+    </LanguageContext.Provider>
+  );
 }
 
 export function useTranslation() {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useTranslation debe usarse dentro de un LanguageProvider');
-  }
-  return context;
-}
+  const ctx = useContext(LanguageContext);
+  if (!ctx) throw new Error('useTranslation debe usarse dentro de <LanguageProvider>');
+  return ctx;
+}v

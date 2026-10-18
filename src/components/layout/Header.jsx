@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useTranslation } from '../../i18n/LanguageContext';
-import '../../styles/components/Header.css';
+import { useTranslation } from '@/i18n/LanguageContext';
+import '@/styles/components/Header.css';
 
 const links = ['about', 'skills', 'experience', 'projects', 'contact'];
 

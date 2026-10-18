@@ -1,6 +1,6 @@
-import { useTranslation } from '../../i18n/LanguageContext';
-import { contact } from '../../utils/profileData';
-import '../../styles/components/Footer.css';
+import { useTranslation } from '@/i18n/LanguageContext';
+import { contact } from '@/utils/profileData';
+import '@/styles/components/Footer.css';
 
 export default function Footer() {
   const { t } = useTranslation();

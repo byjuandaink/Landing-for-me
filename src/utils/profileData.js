@@ -9,4 +9,4 @@ export const heroStats = [
   { key: 'experience', value: '1+' },
   { key: 'projects', value: '4' },
   { key: 'semester', value: '10°' },
-];vv
+];

@@ -1,7 +1,7 @@
-import { useTranslation } from '../../i18n/LanguageContext';
-import { heroStats } from '../../utils/profileData';
-import profilePhoto from '../../assets/profile.jpg';
-import '../../styles/components/Hero.css';
+import { useTranslation } from '@/i18n/LanguageContext';
+import { heroStats } from '@/utils/profileData';
+import profilePhoto from '@/assets/profile.jpg';
+import '@/styles/components/Hero.css';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -15,7 +15,7 @@ export default function Hero() {
           <p className="eyebrow">{t('hero.greeting')}</p>
           <h1 className="hero__name">{t('hero.name')}</h1>
           <p className="hero__role gradient-text">
-            {t('hero.role')} · {t('hero.stack')}
+            {t('hero.role')} {t('hero.stack')}
           </p>
           <p className="hero__tagline">{t('hero.tagline')}</p>
           <div className="hero__actions">

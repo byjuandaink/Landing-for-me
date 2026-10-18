@@ -9,7 +9,7 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Juan David Rojas Tique",
-    "role": "Full Stack Developer Jr.",
+    "role": "Full Stack Developer Jr ||",
     "stack": ".NET (C#) & React",
     "tagline": "Construyo aplicaciones web escalables: interfaces interactivas en React y backend limpio en C# bajo Clean Architecture.",
     "ctaProjects": "Ver proyectos",

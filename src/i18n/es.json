@@ -1,4 +1,14 @@
 {
+  "skills": {
+  "eyebrow": "Habilidades",
+  "title": "Mi stack técnico",
+  "subtitle": "Lo que uso para construir de punta a punta.",
+  "backend": "Backend",
+  "frontend": "Frontend",
+  "database": "Bases de datos",
+  "methods": "Metodologías & Otros",
+  "all": "Todas"
+  },
   "nav": {
     "about": "Sobre mí",
     "skills": "Habilidades",
@@ -31,7 +41,7 @@
   },
   "skills": {
     "eyebrow": "Habilidades",
-    "title": "Mi stack técnico",
+    "title": "Habilidades tecnicas",
     "subtitle": "Lo que uso para construir de punta a punta.",
     "backend": "Backend",
     "frontend": "Frontend",

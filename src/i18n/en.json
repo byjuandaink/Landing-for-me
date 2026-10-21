@@ -1,4 +1,14 @@
 {
+  "skills": {
+  "eyebrow": "Skills",
+  "title": "My tech stack",
+  "subtitle": "What I use to build end to end.",
+  "backend": "Backend",
+  "frontend": "Frontend",
+  "database": "Databases",
+  "methods": "Methodologies & Other",
+  "all": "All"
+  },
   "nav": {
     "about": "About",
     "skills": "Skills",

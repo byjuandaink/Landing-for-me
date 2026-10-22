@@ -1,12 +1,28 @@
+import { contact } from './profileData';
+
 export const projects = [
   {
+    key: 'fullstack',
+    image: 'project-fullstack',
+    tags: ['C#', '.NET', 'React', 'PostgreSQL', 'JWT'],
+    url: contact.github,
+  },
+  {
+    key: 'api',
+    image: 'project-api',
+    tags: ['C#', 'REST', 'Repository Pattern'],
+    url: contact.github,
+  },
+  {
     key: 'inkprogress',
-    url: 'https://byjuandaink.github.io/Page_Ink/',
-    tags: ['React', 'Dashboard', 'Gestión'],
+    image: 'project-inkprogress',
+    tags: ['React', 'Dashboard'],
+    url: contact.github,
   },
   {
     key: 'portfolio',
-    url: 'https://github.com/byjuandaink',
-    tags: ['React', 'Vite', 'i18n'],
+    image: 'project-portfolio',
+    tags: ['React', 'Vite', 'Tailwind'],
+    url: contact.github,
   },
 ];

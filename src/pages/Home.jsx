@@ -1,5 +1,5 @@
 import { Header, Footer } from '../components/layout';
-import { Hero, Skills,  } from '../components/sections';
+import { Hero, Skills, Projects } from '../components/sections';
 import About from '../components/ui/About';
 
 
@@ -11,6 +11,7 @@ export default function Home() {
         <Hero />
                 <About/>
         <Skills />
+        <Projects />
       </main>
       <Footer />
     </>

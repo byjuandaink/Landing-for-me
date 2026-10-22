@@ -30,7 +30,7 @@ export default function Header() {
           solid ? 'bg-ink/80 backdrop-blur-md' : 'bg-transparent'
         }`}
       >
-        <div className="mx-auto grid h-16 max-w-7xl grid-cols-3 items-center px-6 md:h-20 md:px-12">
+        <div className="mx-auto grid h-8 max-w-7xl grid-cols-3 items-center px-6 md:h-20 md:px-12">
           <button type="button" className={`${btn} justify-self-start`} onClick={() => setOpen(true)} aria-expanded={open}>
             {t('nav.menu')}
           </button>

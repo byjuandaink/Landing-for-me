@@ -6,7 +6,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <Panel id="top" image={images.hero}>
+    <Panel id="top" image={images.hero} full>
       <div className="flex flex-col items-center text-center">
         <p className="mb-6 font-mono text-xs uppercase tracking-[0.3em] text-crimson xs:text-sm">
           {t('hero.greeting')}

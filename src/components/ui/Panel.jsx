@@ -1,13 +1,15 @@
 import useInView from '../../hooks/useInView';
 
-export default function Panel({ id, image, children, className = '' }) {
+export default function Panel({ id, image, full = false, children, className = '' }) {
   const [ref, visible] = useInView();
 
   return (
     <section
       id={id}
       ref={ref}
-      className={`relative flex min-h-svh snap-start items-center overflow-hidden bg-gradient-to-br from-ink via-ink-soft to-crimson-dark/40 ${className}`}
+      className={`relative flex snap-start items-center overflow-hidden bg-gradient-to-br from-ink via-ink-soft to-crimson-dark/40 ${
+        full ? 'min-h-svh' : ''
+      } ${className}`}
     >
       {image && (
         <>
@@ -23,7 +25,7 @@ export default function Panel({ id, image, children, className = '' }) {
       )}
 
       <div
-        className={`relative z-10 mx-auto w-full max-w-7xl px-6 py-24 transition-all duration-1000 ease-soft md:px-12 motion-reduce:translate-y-0 motion-reduce:opacity-100 motion-reduce:transition-none ${
+        className={`relative z-10 mx-auto w-full max-w-7xl px-6 py-20 transition-all duration-1000 ease-soft md:px-12 md:py-28 motion-reduce:translate-y-0 motion-reduce:opacity-100 motion-reduce:transition-none ${
           visible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}
       >
@@ -31,4 +33,4 @@ export default function Panel({ id, image, children, className = '' }) {
       </div>
     </section>
   );
-}   
+}

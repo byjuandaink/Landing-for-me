@@ -84,6 +84,9 @@
   },
   "projects": {
     "eyebrow": "Proyectos",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "goTo": "Ir a la diapositiva",
     "title": "Cosas que he construido",
     "viewProject": "Ver proyecto",
     "fullstack": {

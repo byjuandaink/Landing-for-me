@@ -9,12 +9,19 @@
   "methods": "Methodologies & Other",
   "all": "All"
   },
+  
+  "aboutMe": {
+    "step":"About Me",
+    "developFull": "I am a Full Stack Developer and final-semester Systems Engineering student specializing in building scalable web applications that combine interactive React, Vite, and Tailwind CSS interfaces with a robust C# (.NET) backend. I focus on writing clean, decoupled, and maintainable code by implementing Clean Architecture and enterprise design patterns such as CQRS, Repository, and Unit of Work, powered by Entity Framework Core and PostgreSQL. Additionally, my background in IT infrastructure, networking, and cloud environments (AWS, IIS) allows me to understand the product end-to-end—from data modeling and security to continuous deployment across Develop, QA, and Production environments using GitFlow and Scrum."
+  },
   "nav": {
     "about": "About",
     "skills": "Skills",
     "experience": "Experience",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "close": "Close",
+    "menu": "Menu"
   },
   "hero": {
     "greeting": "Hi, I'm",
@@ -31,13 +38,14 @@
     }
   },
   "about": {
-    "eyebrow": "About me",
-    "title": "From IT support to code",
-    "bio": "Full Stack Developer and tenth-semester Systems Engineering student, specialized in scalable web applications with a C# (.NET) backend and a React frontend. I design and integrate REST APIs following Clean Architecture, applying patterns such as CQRS, Repository and Unit of Work with Entity Framework Core on PostgreSQL. I understand the software lifecycle, cloud deployment (AWS), web servers (IIS) and collaborative work with Scrum and GitFlow.",
-    "location": "Bogotá, Colombia (remote)",
-    "languagesTitle": "Languages",
-    "langEs": "Spanish · Native",
-    "langEn": "English · Basic / Technical"
+  "eyebrow": "About me",
+  "title": "From IT support to code",
+  "bio": "Full Stack Developer and tenth-semester Systems Engineering student, specialized in scalable web applications with a C# (.NET) backend and a React frontend. I design and integrate REST APIs following Clean Architecture, applying patterns such as CQRS, Repository and Unit of Work with Entity Framework Core on PostgreSQL. I understand the software lifecycle, cloud deployment (AWS), web servers (IIS) and collaborative work with Scrum and GitFlow.",
+  "locationTitle": "Location",
+  "location": "Bogotá, Colombia (remote)",
+  "languagesTitle": "Languages",
+  "langEs": "Spanish · Native",
+  "langEn": "English · Basic / Technical"
   },
   "skills": {
     "eyebrow": "Skills",

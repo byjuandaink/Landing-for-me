@@ -32,7 +32,7 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-3 md:flex">
+      <div className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-10 md:flex">
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-white/60">
           {t('hero.scroll')}
         </span>

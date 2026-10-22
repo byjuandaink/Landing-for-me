@@ -14,7 +14,9 @@
     "skills": "Habilidades",
     "experience": "Experiencia",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "menu": "Menu",
+    "close": "Cerrar"
   },
   "hero": {
     "greeting": "Hola, soy",
@@ -31,23 +33,15 @@
     }
   },
   "about": {
-    "eyebrow": "Sobre mí",
-    "title": "Del soporte TI al código",
-    "bio": "Desarrollador Full Stack y estudiante de décimo semestre de Ingeniería de Sistemas, especializado en aplicaciones web escalables con backend en C# (.NET) y frontend en React. Diseño e integro APIs REST bajo Clean Architecture, aplicando patrones como CQRS, Repository y Unit of Work con Entity Framework Core sobre PostgreSQL. Conozco el ciclo de vida del software, el despliegue en la nube (AWS), servidores web (IIS) y el trabajo colaborativo con Scrum y GitFlow.",
-    "location": "Bogotá, Colombia (remoto)",
-    "languagesTitle": "Idiomas",
-    "langEs": "Español · Nativo",
-    "langEn": "Inglés · Básico / Técnico"
-  },
-  "skills": {
-    "eyebrow": "Habilidades",
-    "title": "Habilidades tecnicas",
-    "subtitle": "Lo que uso para construir de punta a punta.",
-    "backend": "Backend",
-    "frontend": "Frontend",
-    "database": "Bases de datos",
-    "methods": "Metodologías & Otros",
-    "all": "Todas"
+  "eyebrow": "Sobre mí",
+  "title": "Del soporte TI al código",
+  "bio": "Desarrollador Full Stack y estudiante de décimo semestre de Ingeniería de Sistemas, especializado en aplicaciones web escalables con backend en C# (.NET) y frontend en React. Diseño e integro APIs REST bajo Clean Architecture, aplicando patrones como CQRS, Repository y Unit of Work con Entity Framework Core sobre PostgreSQL. Conozco el ciclo de vida del software, el despliegue en la nube (AWS), servidores web (IIS) y el trabajo colaborativo con Scrum y GitFlow.",
+  "locationTitle": "Ubicación",
+  "location": "Bogotá, Colombia (remoto)",
+  "languagesTitle": "Idiomas",
+  "langEs": "Español · Nativo",
+  "langEn": "Inglés · Básico / Técnico",
+  "develop": "Soy Desarrollador Full Stack y estudiante de último semestre de Ingeniería de Sistemas, especializado en construir aplicaciones web escalables que combinan interfaces interactivas en React, Vite y Tailwind CSS con un backend sólido en C# (.NET). Me enfoco en escribir código limpio, desacoplado y mantenible implementando Clean Architecture y patrones de diseño empresariales como CQRS, Repository y Unit of Work, integrados con Entity Framework Core y PostgreSQL. Además, mi formación y trayectoria previa en infraestructura TI, redes y entornos cloud (AWS, IIS) me permiten entender el producto de punta a punta: desde la arquitectura de datos y seguridad hasta el despliegue continuo en ambientes de desarrollo, QA y producción bajo flujos GitFlow y Scrum."
   },
   "experience": {
     "eyebrow": "Experiencia",

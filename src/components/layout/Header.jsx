@@ -36,7 +36,7 @@ export default function Header() {
           </button>
 
           <a href="#top" className="justify-self-center font-display text-xl text-white md:text-2xl">
-            introducing<span className="text-crimson">.me</span>
+            Full Stack<span className="text-crimson">Jr.</span>
           </a>
 
           <button type="button" className={`${btn} justify-self-end`} onClick={() => setLang(lang === 'es' ? 'en' : 'es')} aria-label="Change language">

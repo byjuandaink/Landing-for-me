@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 
-export default function Carousel({ slides, labels, interval = 15000 }) {
+export default function Carousel({ slides, labels, interval = 10000 }) {
   const [index, setIndex] = useState(0);
   const count = slides.length;
 
   const go = (i) => setIndex((i + count) % count);
 
-  // Avance automático. Al cambiar `index` (manual o automático) el temporizador se reinicia.
   useEffect(() => {
     if (count < 2) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -16,24 +15,20 @@ export default function Carousel({ slides, labels, interval = 15000 }) {
 
   return (
     <div>
-      <div className="grid items-center gap-10 md:grid-cols-[1.2fr_0.8fr] md:gap-16">
-        {/* Imagen */}
-        <div className="relative aspect-[16/10] overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-ink-soft to-crimson-dark/40">
+      <div className="grid items-center gap-10 lg:grid-cols-[2fr_1fr] lg:gap-12">
+        <div className="relative aspect-video overflow-hidden rounded-lg border border-white/10 bg-black">
           {slides.map((s, i) => (
             <div
               key={s.id}
               aria-hidden={i !== index}
-              className={`absolute inset-0 transition-opacity duration-1000 ease-soft ${
-                i === index ? 'opacity-100' : 'opacity-0'
-              }`}
+              className={`absolute inset-0 transition-opacity duration-1000 ease-soft ${i === index ? 'opacity-100' : 'opacity-0'
+                }`}
             >
               {s.image ? (
                 <img
                   src={s.image}
                   alt={s.title}
-                  className={`h-full w-full object-cover transition-transform duration-[8000ms] ease-out motion-reduce:transition-none ${
-                    i === index ? 'scale-105' : 'scale-100'
-                  }`}
+                  className="h-full w-full object-contain"
                 />
               ) : (
                 <span className="absolute inset-0 grid place-items-center font-display text-8xl text-white/10">
@@ -44,7 +39,6 @@ export default function Carousel({ slides, labels, interval = 15000 }) {
           ))}
         </div>
 
-        {/* Texto: todas las diapositivas ocupan la misma celda, así la altura no salta */}
         <div className="grid">
           {slides.map((s, i) => {
             const active = i === index;
@@ -52,11 +46,10 @@ export default function Carousel({ slides, labels, interval = 15000 }) {
               <div
                 key={s.id}
                 aria-hidden={!active}
-                className={`col-start-1 row-start-1 transition-all duration-700 ease-soft ${
-                  active
+                className={`col-start-1 row-start-1 transition-all duration-700 ease-soft ${active
                     ? 'translate-y-0 opacity-100'
                     : 'pointer-events-none translate-y-4 opacity-0'
-                }`}
+                  }`}
               >
                 <span className="font-mono text-xs tracking-[0.3em] text-crimson">
                   {String(i + 1).padStart(2, '0')} / {String(count).padStart(2, '0')}
@@ -94,7 +87,6 @@ export default function Carousel({ slides, labels, interval = 15000 }) {
         </div>
       </div>
 
-      {/* Controles */}
       <div className="mt-10 flex items-center justify-between gap-6">
         <div className="flex items-center gap-2">
           {slides.map((s, i) => (

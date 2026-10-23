@@ -1,7 +1,7 @@
 {
   "skills": {
-  "eyebrow": "Habilidades",
-  "title": "Mi stack técnico",
+  "eyebrow": "Tecnologías",
+  "title": "Habilidades técnicas",
   "subtitle": "Lo que uso para construir de punta a punta.",
   "backend": "Backend",
   "frontend": "Frontend",
@@ -102,7 +102,7 @@
       "description": "Dashboard de gestión para un estudio de tatuajes: agenda de citas, calculadora de presupuestos, control de caja y metas por sprint. Nació de un problema real de mi propio emprendimiento."
     },
     "portfolio": {
-      "name": "introducing.me",
+      "name": "Portafolio",
       "description": "Este portafolio: React + Vite, componentes reutilizables, sistema de traducción propio y un formulario de contacto conectado a una base de datos."
     }
   },

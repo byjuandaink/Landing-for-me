@@ -6,13 +6,13 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <Panel id="top" image={images.hero} full>
+    <Panel id="top"  image={images.hero} full imageClass="contrast-75 brightness-75 saturate-75" overlayClass="bg-gradient-to-t from-black/90 via-black/60 to-black/70">
       <div className="flex flex-col items-center text-center">
         <p className="mb-6 font-mono text-xs uppercase tracking-[0.3em] text-crimson xs:text-sm">
           {t('hero.greeting')}
         </p>
 
-        <h1 className="font-display text-5xl font-medium leading-none tracking-tight text-white xs:text-6xl md:text-8xl xl:text-9xl">
+        <h1 className="font-display text-5xl font-medium leading-none tracking-tight text-white drop-shadow-lg xs:text-6xl md:text-8xl xl:text-9xl">
           {t('hero.name')}
         </h1>
 

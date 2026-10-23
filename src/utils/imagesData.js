@@ -1,4 +1,4 @@
-const files = import.meta.glob('../assets/images/*.{jpg,jpeg,png,webp}', {
+const files = import.meta.glob('../assets/images/*.{jpg,jpeg,png,webp,png}', {
   eager: true,
   import: 'default',
 });
@@ -13,5 +13,5 @@ export const getImage = (name) => byName[name];
 
 export const images = {
   hero: byName.hero,
-  skills: byName.skills,
+  skills: byName.skills,  
 };

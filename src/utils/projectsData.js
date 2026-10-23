@@ -1,7 +1,7 @@
 import { contact } from './profileData';
 
 export const projects = [
-  {
+  { 
     key: 'fullstack',
     image: 'project-fullstack',
     tags: ['C#', '.NET', 'React', 'PostgreSQL', 'JWT'],

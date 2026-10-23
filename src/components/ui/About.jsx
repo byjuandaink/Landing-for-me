@@ -8,7 +8,6 @@ export default function About() {
   return (
     <Panel id="about">
       <div className="grid items-center gap-12 md:grid-cols-[0.8fr_1.2fr] md:gap-20">
-        {/* Foto con marco desplazado */}
         <div className="group relative mx-auto w-full max-w-xs md:max-w-sm">
           <div
             aria-hidden="true"
@@ -21,7 +20,6 @@ export default function About() {
           />
         </div>
 
-        {/* Texto */}
         <div>
           <p className="mb-4 font-mono text-xs uppercase tracking-[0.3em] text-crimson">
             {t('about.eyebrow')}

@@ -112,8 +112,8 @@
       "description": "RESTful C# API with Repository Pattern, global exception handling and complex queries."
     },
     "inkprogress": {
-      "name": "InkProgress Studio",
-      "description": "Management dashboard for a tattoo studio: appointment scheduling, quote calculator, cash control and sprint-based goals. Born from a real problem in my own business."
+      "name": "Accounting Automation with Python and Pandas",
+      "description": "ETL process built with Python and Pandas that takes invoices and Excel files, cleans and standardizes the data, and prepares it for portfolio reconciliation in the accounting platform. It cut the time of the task by 80%.ETL process built with Python and Pandas that takes invoices and Excel files, cleans and standardizes the data, and prepares it for portfolio reconciliation in the accounting platform. It cut the time of the task by 80%."
     },
     "portfolio": {
       "name": "Develop Full Stack Jr.",

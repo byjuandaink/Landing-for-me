@@ -98,8 +98,8 @@
       "description": "API RESTful en C# con Repository Pattern, manejo global de excepciones y consultas complejas."
     },
     "inkprogress": {
-      "name": "InkProgress Studio",
-      "description": "Dashboard de gestión para un estudio de tatuajes: agenda de citas, calculadora de presupuestos, control de caja y metas por sprint. Nació de un problema real de mi propio emprendimiento."
+      "name": "Automatización con Python y Pandas",
+      "description": "Proceso ETL en Python y Pandas que toma facturas y archivos de Excel, limpia y estandariza los datos y los deja listos para la conciliación de cartera en la plataforma contable. Redujo el tiempo de la tarea en un 80 %."
     },
     "portfolio": {
       "name": "Portafolio",
